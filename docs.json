@@ -1,43 +1,35 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Carousel Docs",
+  "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#0E76FD",
-    "light": "#4DBEFF",
-    "dark": "#0A57B6"
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
-  "favicon": "/favicon-carousel.svg",
-  "logo": {
-    "light": "/logo/carousel-light.svg",
-    "dark": "/logo/carousel-dark.svg"
-  },
+  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Get Started",
             "pages": [
               "index",
               "quickstart",
-              "portal-overview"
+              "development"
             ]
           },
           {
-            "group": "Integration",
+            "group": "Essentials",
             "pages": [
-              "integration/setup",
-              "integration/data-export",
-              "integration/webhooks"
-            ]
-          },
-          {
-            "group": "POS Hosting",
-            "pages": [
-              "pos/direct-link",
-              "pos/iframe"
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
             ]
           }
         ]
@@ -48,43 +40,63 @@
           {
             "group": "API Documentation",
             "pages": [
-              "api/introduction"
+              "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoints",
+            "group": "Endpoint Examples",
             "pages": [
-              "api/get",
-              "api/post",
-              "api/webhook"
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
         ]
       }
     ],
     "global": {
-      "anchors": []
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
     }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@oncarousel.com"
+        "href": "mailto:hi@mintlify.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Go to Portal",
-      "href": "https://portal.oncarousel.com"
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
     }
   },
   "footer": {
-    "poweredBy": false,
     "socials": {
-      "x": "https://x.com/oncarousel",
-      "github": "https://github.com/oncarousel",
-      "linkedin": "https://linkedin.com/company/oncarousel"
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
 }
